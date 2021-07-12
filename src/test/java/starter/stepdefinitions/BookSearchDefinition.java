@@ -52,7 +52,6 @@ public class BookSearchDefinition {
 	public void the_total_of_book_should_be(int total) {
 		int tbook = response.jsonPath().getList("id").size();
 		Assert.assertEquals(tbook, total);
-
 	}
 
 	// Get book by book title
